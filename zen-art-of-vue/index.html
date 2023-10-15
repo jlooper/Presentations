@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+	<html class="sl-root decks export offline loaded">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover, minimal-ui">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<link rel="manifest" href='data:application/manifest+json,{"display": "standalone", "name": "Zen and the Art of Vue"}' />
+		<title>Zen and the Art of Vue</title>
+
+		<meta name="description" content="NS Dev Day (shorter version)">
+
+		<link rel="stylesheet" type="text/css" href="lib/offline-v2.css">
+
+
+
+	</head>
+	<body class="reveal-viewport theme-font-josefine theme-color-white-blue">
+		<div class="reveal">
+			<div class="slides">
+				<section data-id="6f76d24f324d84a26706c5ac27ec4fc4" data-background-image="zen-and-the-art-of-vue-65/cf71e57a66073f77def182fc71a530fe"><div class="sl-block" data-block-type="text" style="width: 430px; left: 265px; top: 130px; height: auto;" data-block-id="eb6915033166d915e4023950fcf5bf3f"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" data-gramm_id="237797fa-21ff-1abe-2a9c-478d48f939bb" data-gramm="true" data-gramm_editor="true" style="z-index: 12;">
+<h1>Zen and the Art of Vue</h1>
+</div></div>
+<div class="sl-block" data-block-type="shape" data-block-id="e98f48a276eb4d140c96cceb99a59f87" style="min-width: 4px; min-height: 4px; width: 614px; height: 470px; left: 173px; top: 115px;"><div class="sl-block-style" style="z-index: 11; opacity: 0.94;"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(234, 209, 220)" data-shape-stretch="true" style="z-index: 11;" data-shape-corner-radius="32px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 614 470"><rect width="614" height="470" rx="32" ry="32" class="shape-element" fill="rgb(234, 209, 220)"></rect></svg></div></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="0decda1829428142383782c55b374134" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 335px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" data-gramm_id="62c33673-41fc-bbab-361b-48e271941bb2" data-gramm="true" data-gramm_editor="true">
+<h3><span style="font-size:0.9em">Jen Looper</span></h3>
+
+<h3><span style="font-size:0.9em">Senior Developer Advocate</span></h3>
+
+<h3><span style="font-size:0.9em">Progress</span></h3>
+
+<h3><span style="font-size:0.9em">@jenlooper</span></h3>
+</div></div></section><section data-id="7f4f37ca62eb965ca3b516f4653d383e" data-background-color="#ead1dc"><div class="sl-block" data-block-type="text" style="width: 806px; left: 78px; top: 95px; height: auto;" data-block-id="14503212748cc87fd8058a0a8509e603"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;">
+<h2><strong>agenda</strong></h2>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="cb6ff56cdd63084311674e9922804860" style="height: auto; min-width: 30px; min-height: 30px; width: 789px; left: 86px; top: 230px;"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="0">
+<h3>Examine a theory of creating quality products by positioning ourselves in a mental model contrasting the 'logical' and the 'artistic'</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="2c041580810a12a296924cc1c512b147" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 181px; top: 442px;"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" data-fragment-index="1">
+<h3>Leveraging that positioning to build an engaging web and mobile app experience</h3>
+</div></div></section><section data-id="46f5563985e7d8637bcad6d479038a1e" data-background-color="#d9d2e9"><div class="sl-block" data-block-type="image" data-block-id="f83dd7dbfbbc2ca936e0a5898b6cad3d" style="min-width: 4px; min-height: 4px; width: 274px; height: 402px; left: 343px; top: 80px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="220" data-natural-height="323" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/cf03d3623490013e69f757de45e1c05e.jpg"></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="03e7ecd2f99fad03a0664419fc3b45a3" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 553px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<h3>Robert Pirsig, 1971</h3>
+</div></div></section><section data-background-color="#d9d2e9" data-id="4b2615a56b0ae8b7e8a188ec350d6d13">
+<div class="sl-block" data-block-type="text" style="height: auto; width: 665px; left: 148px; top: 53px;" data-block-id="c3c866d6e019e6bab7a687dc5ca5367e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;" data-gramm_id="08292366-b7cd-81cd-f858-7f9d96849ca5" data-gramm="true" data-gramm_editor="true">
+<h3><strong>A book about a road trip on a motorcycle</strong></h3>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="73f6e3126e7ce747daefa9af23ad7be8" style="height: auto; min-width: 30px; min-height: 30px; width: 742px; left: 109px; top: 160px;"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-gramm_id="4ab3bd14-308a-a7d0-943f-af1e7d11ca1e" data-gramm="true" data-gramm_editor="true" data-fragment-index="0">
+<h3><span style="font-size:0.9em">an analysis of a half-forgotten past existence as a writing professor obsessed with 'good' writing</span></h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 724px; left: 119px; top: 298px;" data-block-id="aadea342722696a0a33cda0e426c9d01"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-gramm_id="4ab3bd14-308a-a7d0-943f-af1e7d11ca1e" data-gramm="true" data-gramm_editor="true" data-fragment-index="1">
+<h3><span style="font-size:0.9em">a comparison of the world experience of a logical, analytical author with traveling companions who are more 'artistic'</span></h3>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="f4cd67dcbfa143990215ad86feabaf07" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 478px;"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" data-gramm_id="8a36f118-b9f7-70a0-196e-d4a8bc7bba55" data-gramm="true" data-gramm_editor="true" data-fragment-index="2">
+<h3><span style="font-size:0.9em">a series of 'Chautauquas' or analyses of various philosophical points</span></h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 737px; left: 113px; top: 614px;" data-block-id="04c0173f5177c5b8985ad8df9f15fa4b"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;" data-gramm_id="8a36f118-b9f7-70a0-196e-d4a8bc7bba55" data-gramm="true" data-gramm_editor="true" data-fragment-index="3">
+<h3><span style="font-size:0.9em">a quest to reconcile world views in pursuit of Quality</span></h3>
+</div></div></section><section data-id="a57732ae563567bd9391a088f54822e5" data-background-color="#cfe2f3"><div class="sl-block" data-block-type="image" data-block-id="f9fb8b01e4d506f71912df5b943d0978" style="min-width: 4px; min-height: 4px; width: 806px; height: 538px; left: 77px; top: 133px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1024" data-natural-height="683" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/9ec82e279acd3fc2f9810246b90185c9.jpg"></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="901a194e66e0ba932cf09e1ca941eb77" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 34px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-gramm_id="eff293fc-8751-79dd-3b8d-2dd1ec08182e" data-gramm="true" data-gramm_editor="true">
+<h2>What is a motorcycle?</h2>
+</div></div></section><section data-id="b4f827085fd9ee2c184a962296235535" data-background-color="#cfe2f3"><div class="sl-block" data-block-type="text" data-block-id="fbc3c609c29b6a1fc116b26c3e3052ab" style="height: auto; min-width: 30px; min-height: 30px; width: 780px; left: 90px; top: 275px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-gramm_id="565ecb01-7140-b660-87e9-82ad502d497e" data-gramm="true" data-gramm_editor="true">
+<h1>A Classicist's point of view</h1>
+</div></div></section><section data-id="e5b4b84a70073582d39f565aab5b87ab" data-background-color="#c9daf8"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 49px; height: auto;" data-block-id="45eb2d27e799500405b9d3231072ead1"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h3>"A motorcycle can be divided according to its components and according to its functions"</h3>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="169583481e544cd2999c74ae7ca8e388" style="min-width: 4px; min-height: 4px; width: 806px; height: 291px; left: 77px; top: 191px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="870" data-natural-height="314" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/93b3f5679439824d73001e4f0c4f6227.jpeg"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 741px; left: 110px; top: 537px; height: auto;" data-block-id="04fe17db77e643c171ba51afbc713f8d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna odio, aliquam vulputate faucibus id, elementum lobortis felis. Mauris urna dolor, placerat ac sagittis quis." style="text-align: center; z-index: 13; line-height: 0.793;" data-gramm_id="357e33b2-3d3b-f4e4-ee13-5936dd4623e6" data-gramm="true" data-gramm_editor="true" data-has-line-height="">
+<h3>the "what" of the motorcycle: its components</h3>
+
+<p> </p>
+
+<h3>the "how" of the motorcycle: its functions</h3>
+</div></div></section><section data-id="1cfd6a6cca21410dcdef409b31b43345" data-background-color="#d0e0e3"><div class="sl-block" data-block-type="text" data-block-id="08087fb98d62e5a0196a3095d92aecda" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 300px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<h3>"that's all the motorcycle is, a system of concepts worked out in steel."</h3>
+</div></div></section><section data-id="cdb41e0466ddaaf14b1098d5a7eab075" data-background-color="#d9d2e9"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 302px; height: auto;" data-block-id="69323f9f0376d1b89ae1bfe2d36a739a"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;" data-gramm_id="8212d70a-907b-d46e-fa70-da060e08022e" data-gramm="true" data-gramm_editor="true">
+<h1>A Romantic's point of view</h1>
+</div></div></section><section data-id="59231445dc579b7bd3cd3d5911097a34" data-background-color="#d9ead3"><div class="sl-block" data-block-type="text" data-block-id="fed57983caf025c43e53d1c89da3d9ca" style="height: auto; min-width: 30px; min-height: 30px; width: 723px; left: 119px; top: 19px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-gramm_id="7ad1e777-d39b-1d15-47f5-c96e942ac573" data-gramm="true" data-gramm_editor="true">
+<h3>"If you were to show an engine...to a romantic it is unlikely he would see much of interest in it. It has no appeal because the reality he sees is its surface."</h3>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="7cda0b6687f8cd41b0fa9e08ae1c836a" style="min-width: 4px; min-height: 4px; width: 264px; height: 212px; left: 121px; top: 244px;"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="1140" data-natural-height="917" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/65c512d74da87d1b159113c0dc51ef87.jpg"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="f1d4b8c98c2d6e3e7818b2f66fed0ab7" style="min-width: 4px; min-height: 4px; width: 239px; height: 205px; left: 133px; top: 479px;"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="1140" data-natural-height="979" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/2a08d9741464dd6044f0533f77a5fe2b.jpg"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="ec259f63db49a7a97c7e1bbc65233d2b" style="min-width: 4px; min-height: 4px; width: 222px; height: 212px; left: 642px; top: 237px;"><div class="sl-block-content" style="z-index: 14;"><img style="" data-natural-width="1140" data-natural-height="1090" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/3e0c41ecc0fdf66371831e04ee09e616.jpg"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="3c323761fd94e9403f1933e3e21ebaec" style="min-width: 4px; min-height: 4px; width: 224px; height: 212px; left: 401px; top: 244px;"><div class="sl-block-content" style="z-index: 15;"><img style="" data-natural-width="1140" data-natural-height="1077" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/de6e80d61315d257ec4a785f1f34fb0d.jpg"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="f83d023ee9274cff5937f68f7a286c56" style="min-width: 4px; min-height: 4px; width: 194px; height: 209px; left: 648px; top: 475px;"><div class="sl-block-content" style="z-index: 16;"><img style="" data-natural-width="1140" data-natural-height="1231" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/2c619e5a5450e35207a049762cf80c65.jpg"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="b5b56c5b3c2c03a94b684def1fc098ed" style="min-width: 4px; min-height: 4px; width: 227px; height: 205px; left: 398px; top: 479px;"><div class="sl-block-content" style="z-index: 17;"><img style="" data-natural-width="1140" data-natural-height="1031" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/4939573e0418e7a82d117214c0b15a49.jpg"></div></div></section><section data-background-color="#fff2cc" data-id="92bddb3b6d5891bf0de29ca338ad2b0c">
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 793px; left: 84px; top: 313px;" data-block-id="0ddba517a86fe063fbb76a22d8bbd578"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-gramm_id="eff293fc-8751-79dd-3b8d-2dd1ec08182e" data-gramm="true" data-gramm_editor="true">
+<h2>What is a JavaScript framework?</h2>
+</div></div></section><section data-background-color="#f4cccc" data-id="3c97f394d1cf28168dfa922f0b26c913"><div class="sl-block" data-block-type="text" style="height: auto; width: 774px; left: 93px; top: 247px;" data-block-id="511991c118fe1af9816c4283149a494d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;" data-gramm_id="7ad1e777-d39b-1d15-47f5-c96e942ac573" data-gramm="true" data-gramm_editor="true">
+<h3>🔧 A system of concepts worked out in code.</h3>
+
+<p> </p>
+
+<h3>🎨 A system that makes working with JavaScript more elegant, easier, less error-prone.</h3>
+</div></div>
+
+
+
+
+
+</section><section data-background-color="#e6b8af" data-id="c277ddcd909dc0504359c5e4e65c791c">
+
+
+
+
+
+<div class="sl-block" data-block-type="text" data-block-id="7b0f34a3359c472a335a66f1816ca687" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 313px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<h2>What is Vue.js?</h2>
+</div></div></section><section data-background-color="#f4cccc" data-id="792c9c24ade126081aecd97fc9d732fa">
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 774px; left: 93px; top: 247px;" data-block-id="47e3134a2f21aa46c685838f0cc6d42d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-gramm_id="7ad1e777-d39b-1d15-47f5-c96e942ac573" data-gramm="true" data-gramm_editor="true">
+<h3>🔧 It's just CSS, HTML, and JavaScript</h3>
+
+<p> </p>
+
+<h3>🎨 It's elegant CSS, HTML and JavaScript! The API is designed for simplicity. And even the CLI has a UI! </h3>
+</div></div></section><section data-id="3692f6033e92701285bf7c9289f505dc" data-background-color="#d0e0e3"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 300px;" data-block-id="03adaed729aa8d95351892d867eb01e3"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;" data-gramm_id="e51f15c7-4b93-a595-eb60-4da6b439bc52" data-gramm="true" data-gramm_editor="true">
+<h3>"The classic and romantic split is between two separate worlds."</h3>
+</div></div></section><section data-id="fc6a8cbd9e5762b3576f29c558fd5345" data-background-color="#fce5cd"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 84px; height: auto;" data-block-id="d272f301749d4b30d94e09db19a8175c"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;" data-gramm_id="50c7acdf-0a2c-0eba-8433-81b4af8be730" data-gramm="true" data-gramm_editor="true">
+<h1>The quest</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 87px; top: 261px; height: auto;" data-block-id="e4ab1b6b3b2e2957a1a6c139f3e3fcce"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 11;" data-gramm_id="90aa1da2-3e3a-80f0-a09d-122278c9c580" data-gramm="true" data-gramm_editor="true">
+<h2>a convergence of the classic and the romantic world views</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="52ea3bf61d2ef401f0650d0b6c5aad23" style="height: auto; min-width: 30px; min-height: 30px; width: 693px; left: 144px; top: 531px;"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-gramm_id="955af7a9-7554-f514-3e1c-071201621d5d" data-gramm="true" data-gramm_editor="true" data-fragment-index="0">
+<h3>motorcycle maintenance / motorcycle riding</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 693px; left: 144px; top: 593px;" data-block-id="2c556664a60e993061bda6519fcc95f7"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;" data-gramm_id="955af7a9-7554-f514-3e1c-071201621d5d" data-gramm="true" data-gramm_editor="true" data-fragment-index="1">
+<h3>writing software / enjoying the experience</h3>
+</div></div></section><section data-id="6c3864c546af5b585fc62980f03222b2" data-background-color="#d9ead3"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 156px; height: auto;" data-block-id="d89aa6941834a98763d83744a426ebb3"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;" data-gramm_id="9b5a9e17-8d8e-a710-68aa-4d9fba2bd004" data-gramm="true" data-gramm_editor="true">
+<h1>"Quality"</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="c49a90d27cd7f1510ae90488716995df" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 332px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-gramm_id="c8f80569-df24-ba02-ce68-7b98550174c1" data-gramm="true" data-gramm_editor="true">
+<h3>the fulcrum between</h3>
+
+<h3>'hip' and 'square'</h3>
+
+<h3>'romantic' and 'classic'</h3>
+
+<h3>'technological' and 'humanistic'</h3>
+</div></div></section><section data-background-color="#f4cccc" data-id="7a7ff4d3becd159a7b4f31b0c57b1901"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 253px; height: auto;" data-block-id="2b5683e07a741109d86638b7cc1f5181"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;" data-gramm_id="9b5a9e17-8d8e-a710-68aa-4d9fba2bd004" data-gramm="true" data-gramm_editor="true">
+<h1>How can we achieve Quality?</h1>
+</div></div>
+</section><section data-background-color="#cfe2f3" data-id="71e8f45df594fd192c20b602f1cd6231"><div class="sl-block" data-block-type="image" data-block-id="fe10be3e2ae13cf6f214b922ba5dd3a5" style="min-width: 4px; min-height: 4px; width: 806px; height: 515px; left: 77px; top: 161px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1242" data-natural-height="794" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/6b3167062753c0ce64b857cc44e4325e.gif"></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="0b36a33b17542630233b9ac50bdd6b7c" style="height: auto; min-width: 30px; min-height: 30px; width: 705px; left: 128px; top: 30px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<h3>Bridging the divide between developer and designer: Sarah Drasner</h3>
+</div></div></section><section data-id="2f8a8740e3b380d0e9c25f14857c2dc4" data-background-color="#ead1dc"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 302px; height: auto;" data-block-id="4b0a4a0437073beec0cece43378e8a8a"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;" data-gramm_id="56f3e236-5230-226e-4213-832306b988ba" data-gramm="true" data-gramm_editor="true">
+<h1>The Zen of Vue</h1>
+</div></div></section><section data-background-color="#c9daf8" data-id="8fbf118ac0c59d419fe677aa3677404b"><div class="sl-block" data-block-type="text" style="width: 258px; left: 161px; top: 454px; height: auto;" data-block-id="3f108609b77ce8d4ed32795edc1c67f6"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;" data-gramm_id="56f3e236-5230-226e-4213-832306b988ba" data-gramm="true" data-gramm_editor="true">
+<h1>Design</h1>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 400px; height: 400px; left: 268px; top: 168px;" data-block-id="4ed48cdeaea7f39df8bddef14f36f608"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="400" data-natural-height="400" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/dccf4b9d8ee62861d7059e64c7c86bb9.png"></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="e3daa37ad0dda5512014b9b1921a700b" style="height: auto; min-width: 30px; min-height: 30px; width: 369px; left: 551px; top: 454px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" data-gramm_id="4ecab82a-9018-88f0-bfe1-7c992c1aa183" data-gramm="true" data-gramm_editor="true">
+<h1 style="color:rgb(51, 51, 51)">Technology</h1>
+</div></div></section><section data-id="fa634d98defaf0a5533da1d4a1a8246a" data-background-color="#d9d2e9"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 302px; height: auto;" data-block-id="dd6032f0e11f47a038d853fa676a0095"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;" data-gramm_id="aee9c927-1481-552e-77b1-9cef0f822f87" data-gramm="true" data-gramm_editor="true">
+<h1>Docs</h1>
+</div></div></section><section data-background-color="#cfe2f3" data-id="d6ea461c492f3c8dc3fd8d9e5efcba02"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 95px; height: auto;" data-block-id="81961bad928ae9ae43ef5e3929c740ee"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;" data-gramm_id="aee9c927-1481-552e-77b1-9cef0f822f87" data-gramm="true" data-gramm_editor="true">
+<h3>"I ... try to remember that the docs aren't an objective artifact describing the reality of Vue - its goal isn't even directly to teach people how to use Vue, but rather to <strong>guide</strong> their emotional and conceptual development in a way that helps them <strong>become more content</strong> in their work. So the docs aren't about me or anyone else working on them, but about the <strong>relationships between developers and their work</strong> using Vue."</h3>
+
+<h3>- Chris Fritz</h3>
+</div></div></section><section data-id="f3675fe1aa4451037c8b6133c9b45014" data-background-color="#c9daf8"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 82px; height: auto;" data-block-id="a849154e711ed8c926a212dc4c6fc6d6"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;" data-gramm_id="c847f7fe-4a48-1571-8b21-9d77bf4d3fd4" data-gramm="true" data-gramm_editor="true">
+<h2><strong>what if</strong></h2>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="56b931e075a8e6ef10d4cea92e624d62" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 210px;"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-gramm_id="5851687a-2fa1-8db7-b193-e95ee62221e8" data-gramm="true" data-gramm_editor="true" data-fragment-index="0">
+<h3>you could create a project that would find flow between three platforms without struggle</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 401px;" data-block-id="230ff68591f12d296df3c292e70534c8"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" data-gramm_id="5851687a-2fa1-8db7-b193-e95ee62221e8" data-gramm="true" data-gramm_editor="true" data-fragment-index="1">
+<h3>and that project would help you create a contemplative work of art to aid in your focus?</h3>
+</div></div></section><section data-id="1bf1c20963967e7a7c5a3876339057e9" data-background-color="#d9d2e9"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 266px; height: auto;" data-block-id="e831dae1745aba69e161fd00f32c908f"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;">
+<h1> </h1>
+
+<h3><span style="color:#800080">build your own personal mandala</span></h3>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="fd3609b2876d17a0b1da6c04cc0fb4e3" style="min-width: 4px; min-height: 4px; width: 400px; height: 60px; left: 280px; top: 290px;"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="400" data-natural-height="60" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/4c5a2d50be4142581139771da20a5973.png"></div></div></section><section data-id="e49934dca9cbebca688d553b238a1c00" data-background-color="#cfe2f3"><div class="sl-block" data-block-type="text" data-block-id="46d47a4883637ca88a49c3d94a7ef4e4" style="height: auto; min-width: 30px; min-height: 30px; width: 884px; left: 38px; top: 30px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-gramm_id="5ef76d56-0c24-3023-61ba-0bab098c7934" data-gramm="true" data-gramm_editor="true">
+<h3>Mandalas represent the cosmos and creating one is an act of meditation on the attainment of enlightenment by visualizing pure lands.</h3>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="75817602548648879ca43a21065f1ebb" style="min-width: 4px; min-height: 4px; width: 477px; height: 473px; left: 242px; top: 206px;"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="606" data-natural-height="601" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/7059a0181522f24aa41c92c5591f6c85.jpg"></div></div></section><section data-id="da536ec790bf47dc6819cf04a412dd16" data-background-color="#c9daf8"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 22px; height: auto;" data-block-id="e12aa831a3a607cbc27ff0051f16dc0f"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;" data-gramm_id="9eebdade-cb50-f39b-2e17-b709191d2ad0" data-gramm="true" data-gramm_editor="true">
+<h1>creation as meditation</h1>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="692ad443e365bead05c384d8044c5984" style="min-width: 4px; min-height: 4px; width: 300px; height: 450px; left: 330px; top: 169px;"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="300" data-natural-height="450" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/bb908c9ac0b63978d6069dd5a8e825e3.jpg"></div></div></section><section data-id="8fba4bb3db146a3cc5d7bd033bdc3b67" data-background-color="#d0e0e3"><div class="sl-block" data-block-type="text" data-block-id="4636aa65267c550ccaa136f65a69fada" style="height: auto; min-width: 30px; min-height: 30px; width: 814px; left: 73px; top: 37px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-gramm_id="cc97d8f7-1dd6-8368-aa3f-e970c6370805" data-gramm="true" data-gramm_editor="true">
+<h2>Create your own sacred geometry</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="272fd2693c9f6c462ecd5e80c6fe379c" style="min-width: 4px; min-height: 4px; width: 745px; height: 558px; left: 108px; top: 128px;"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="1283" data-natural-height="961" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/e97fe45692931ae811afa93e5832f27c.png"></div></div></section><section data-background-color="#d9ead3" data-id="d63f5d1a0ad881dcaf7795c544d7ab3c"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 292px; height: auto;" data-block-id="a4dd91efeef2d84a5d6c076cf9046aba"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;" data-gramm_id="4240f7d7-2a8a-e703-467f-5d2619546286" data-gramm="true" data-gramm_editor="true">
+<h1>Use the new Vue CLI 3 plugin for NativeScript-Vue!</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="1c1bf2fff23e13405364a0969581b578" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 169px; top: 67px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-gramm_id="6c1c6441-1747-52c3-acb5-106705b3137f" data-gramm="true" data-gramm_editor="true">
+<h1>How?</h1>
+</div></div></section><section data-background-color="#d9ead3" data-id="322962fe98d07d3a3c9fb5af832de5d1" id="1"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 168px; top: 16px;" data-block-id="47bb3957900c1e7585d8619fd477a688"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-gramm_id="6c1c6441-1747-52c3-acb5-106705b3137f" data-gramm="true" data-gramm_editor="true">
+<h1>Use the Vue UI 🌷</h1>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="0a7d1c536e1e2057252a72fbf0ebabb6" style="min-width: 4px; min-height: 4px; width: 431px; height: 492px; left: 21px; top: 127px;"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="1182" data-natural-height="1350" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/29074e21f3e2d3a58e47fe5a87e89cd7.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="9bb1f28a87fed6d041551060da6ff61b" style="min-width: 4px; min-height: 4px; width: 430px; height: 492px; left: 505px; top: 127px;"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="1182" data-natural-height="1350" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/b1994e145ed90bf61381fdcdd6afe142.png"></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="d7706572c30d2f2bde08ff0d685db73b" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 168px; top: 638px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;" data-gramm_id="80188d47-ce22-22f4-158e-1f33fd0ba12a" data-gramm="true" data-gramm_editor="true">
+<h3>create a new project</h3>
+</div></div></section><section data-background-color="#d9ead3" data-id="ae87c6ef212491a0fd5b34fcbdcb7bd4" id="2"><div class="sl-block" data-block-type="text" style="height: auto; width: 658px; left: 151px; top: 22px;" data-block-id="84c2d759269ca429a17662bd73250586"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-gramm_id="80188d47-ce22-22f4-158e-1f33fd0ba12a" data-gramm="true" data-gramm_editor="true">
+<h3>install the vue-cli-plugin-nativescript-vue</h3>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="d07e071c237ac4574d6ad0ca97a8648e" style="min-width: 4px; min-height: 4px; width: 526px; height: 601px; left: 217px; top: 90px;"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="1182" data-natural-height="1350" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/83624bf6bbc8b4e17c392a11c9034ed9.png"></div></div></section><section data-background-color="#d9ead3" data-id="16a6d1d3069bd8320878b9b1fe300805" id="3"><div class="sl-block" data-block-type="text" style="height: auto; width: 658px; left: 151px; top: 30px;" data-block-id="9a71d63a69cfe9ac992c54e17f9ce74f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-gramm_id="80188d47-ce22-22f4-158e-1f33fd0ba12a" data-gramm="true" data-gramm_editor="true">
+<h3>configure the plugin</h3>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="c1502c8f7d18e918578c129e0a68506e" style="min-width: 4px; min-height: 4px; width: 496px; height: 566px; left: 232px; top: 105px;"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="1182" data-natural-height="1350" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/651e4b30d7c09e15041ad13e8097350a.png"></div></div></section><section data-background-color="#d9ead3" data-id="ab7f4499d6d9ae0d2d1cea62b5411dc3" id="4"><div class="sl-block" data-block-type="text" style="height: auto; width: 955px; left: 5px; top: 25px;" data-block-id="43ae599ed1cff3acdbf9c32c56b13efb"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-gramm_id="80188d47-ce22-22f4-158e-1f33fd0ba12a" data-gramm="true" data-gramm_editor="true">
+<h3>run the scripts to start the project for web, iOS and Android!</h3>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="01e0d1c5184353101a08c2f6942976f1" style="min-width: 4px; min-height: 4px; width: 499px; height: 570px; left: 231px; top: 104px;"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="1182" data-natural-height="1350" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/a295d0f551b6a9b77d63e9e28879ead9.png"></div></div></section><section data-background-color="#d9ead3" data-id="7a1a834340aea0af24eedd9aa5163815" id="5"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 168px; top: 16px;" data-block-id="99dc8df433fb002e62bf78d357ad7a26"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-gramm_id="6c1c6441-1747-52c3-acb5-106705b3137f" data-gramm="true" data-gramm_editor="true">
+<h1>Party on!!</h1>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="dfde6f48c6e35a52fb7b93b1c0f49010" style="min-width: 4px; min-height: 4px; width: 498px; height: 518px; left: 231px; top: 134px;"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="1062" data-natural-height="1104" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/b02dd724e5ba2121cd8c4d9df1ee99cb.gif"></div></div></section><section data-background-color="#d9ead3" data-id="804bb65b6d8dbde644e85454a74ad9b9" id="6"><div class="sl-block" data-block-type="text" style="height: auto; width: 687px; left: 137px; top: 41px;" data-block-id="f0d17ea58ddd9f69c8b218a415dba0d4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-gramm_id="6c1c6441-1747-52c3-acb5-106705b3137f" data-gramm="true" data-gramm_editor="true">
+<h1>Or, for the purists... 🧘‍♀️</h1>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="30cd8d1bce57b4a741bc2582e4698458" style="min-width: 4px; min-height: 4px; width: 580px; height: 361px; left: 188px; top: 189px;"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="580" data-natural-height="361" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/55ec22bffdb8403e168a86f0133ea422.gif"></div></div></section><section data-background-color="#d9ead3" data-id="8b59321e761fd358280f1d34193c0011" id="7"><div class="sl-block" data-block-type="text" style="height: auto; width: 687px; left: 137px; top: 41px;" data-block-id="83d1b4fbcda0ce483a824f70d0b98d19"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-gramm_id="6c1c6441-1747-52c3-acb5-106705b3137f" data-gramm="true" data-gramm_editor="true">
+<h1>Check out the code</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="ce8f7ae96825c14e537dfa0bfece3b42" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 631px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-gramm_id="2713c9d9-5171-f9f2-8132-ccc8bfa340bf" data-gramm="true" data-gramm_editor="true">
+<h3>package.json</h3>
+</div></div>
+<div class="sl-block" data-block-type="code" data-block-id="2fb7765deb502fb32b4b8bf27750dae5" style="min-width: 30px; min-height: 30px; width: 662px; height: 306px; left: 150px; top: 197px;"><div class="sl-block-content notranslate" data-highlight-theme="github-gist" style="z-index: 13; font-size: 186%;"><pre class="json"><code>"dependencies": {
+    "nativescript-vue": "^2.2.0",
+    "tns-core-modules": "^5.2.2",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.1.0"
+  },</code></pre></div></div></section><section data-background-color="#d9ead3" data-id="7faf2329fe14b391f9ccce40b9bd0cc7" id="8"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 217px; top: 19px;" data-block-id="6a9df718c24f0201e528e4907106738b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;" data-gramm_id="2713c9d9-5171-f9f2-8132-ccc8bfa340bf" data-gramm="true" data-gramm_editor="true">
+<h3>main.js / main.native.js</h3>
+</div></div>
+<div class="sl-block" data-block-type="code" data-block-id="111d15eef02a86f272d58a43b681bdd4" style="min-width: 30px; min-height: 30px; width: 473px; height: 307px; left: 0px; top: 197px;"><div class="sl-block-content notranslate" data-highlight-theme="github-gist" style="z-index: 12; font-size: 126%;"><pre class="javascript"><code>import Vue from 'vue';
+import App from '~/App.vue';
+import router from './router';
+import store from './store';
+
+Vue.config.productionTip = false;
+
+new Vue({
+  router,
+  store,
+  render: (h) =&gt; h(App)
+}).$mount('#app');
+</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 480px; height: 307px; left: 480px; top: 197px;" data-block-id="9fb42b7bfa1e05fde02391b40b1ec2c0"><div class="sl-block-content notranslate" data-highlight-theme="github-gist" style="z-index: 14; font-size: 129%;"><pre class="javascript"><code>import Vue from 'nativescript-vue';
+import App from './App.vue';
+import store from './store';
+
+Vue.config.silent = false;
+
+new Vue({
+  store,
+  render: (h) =&gt; h('frame', [h(App)])
+}).$start();
+</code></pre></div></div></section><section data-background-color="#d9ead3" data-id="e890324adf514b937fa5b52c734e2abe" id="9"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 18px;" data-block-id="c8e221209c46bb5a6750c4a05ab8b3dd"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-gramm_id="2713c9d9-5171-f9f2-8132-ccc8bfa340bf" data-gramm="true" data-gramm_editor="true">
+<h3>Forked templates - App.vue</h3>
+</div></div>
+<div class="sl-block" data-block-type="code" data-block-id="913b54a5ecb0831942355591eaaeecc6" style="min-width: 30px; min-height: 30px; width: 960px; height: 516px; left: 0px; top: 184px;"><div class="sl-block-content notranslate" data-highlight-theme="github-gist" style="z-index: 12; font-size: 106%;"><pre class="xml"><code>&lt;template web&gt;
+  &lt;div class="w-page"&gt;
+    &lt;nav&gt;
+      &lt;ul class="w-navbar"&gt;
+        &lt;li class="w-title"&gt;{{navbarTitle}}&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/nav&gt;
+    &lt;div class="w-container"&gt;
+      &lt;router-link tag="button" class="w-button" id="homeButton" to="/"&gt;Home&lt;/router-link&gt;
+      &lt;button class="w-button" id="aboutButton" v-on:click="goToAboutPage"&gt;About&lt;/button&gt;
+      &lt;router-view/&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+
+&lt;template native&gt;
+  &lt;Page&gt;
+    &lt;ActionBar :title="navbarTitle"/&gt;
+    &lt;GridLayout rows="auto, auto"&gt;
+      &lt;Button text="Home" @tap="goToHomePage" row="0"/&gt;
+      &lt;Button text="About" @tap="goToAboutPage" row="1"/&gt;
+    &lt;/GridLayout&gt;
+  &lt;/Page&gt;
+&lt;/template&gt;</code></pre></div></div></section><section data-background-color="#d9ead3" data-id="011c38da14228fca0480c522eeac9751" id="10"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 18px;" data-block-id="68ecff6d0af935c4f61ee171ab2ea7a9"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-gramm_id="2713c9d9-5171-f9f2-8132-ccc8bfa340bf" data-gramm="true" data-gramm_editor="true">
+<h3>Forked components - HelloWorld for native or iOS/Android versioning</h3>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="edb0b39de6dd6f491c1956aaede0065a" style="min-width: 4px; min-height: 4px; width: 945px; height: 434px; left: 8px; top: 189px;"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="1819" data-natural-height="836" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/e24510fa17b41862aacaed3d511ad65f.png"></div></div></section><section data-background-color="#d9ead3" data-id="a5ea1992bda205b9a29699e2907521a8" id="11"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 18px;" data-block-id="f35a27cc4cf05a402c703ec3362a62b5"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-gramm_id="2713c9d9-5171-f9f2-8132-ccc8bfa340bf" data-gramm="true" data-gramm_editor="true">
+<h3>Share styles cross-platform or scope them</h3>
+</div></div>
+<div class="sl-block" data-block-type="code" data-block-id="f20a862035ad3b5de2e537268e93826d" style="min-width: 30px; min-height: 30px; width: 599px; height: 531px; left: 181px; top: 145px;"><div class="sl-block-content notranslate" data-highlight-theme="github-gist" style="z-index: 12; font-size: 133%;"><pre class="css"><code>ActionBar
+  color #42b983
+
+.w-navbar
+  color #42b983
+  position fixed
+  z-index 10000
+  height 3em
+  width 100%
+  top 0px
+  left 0px
+  margin auto
+  list-style none
+  display flex
+  align-items center
+  padding 0 10px
+  -webkit-box-shadow -8px 8px 6px -7px #999
+  -moz-box-shadow -8px 8px 6px -7px #999
+  box-shadow -8px 8px 6px -7px #999</code></pre></div></div></section><section data-background-color="#d9d2e9" data-id="234b84f37b4f774945682940d89b7d59">
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 400px; height: 60px; left: 280px; top: 258px;" data-block-id="729f5d54cbf6a60f30fb88b12a396bf1"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="400" data-natural-height="60" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/4c5a2d50be4142581139771da20a5973.png"></div></div></section><section data-background-color="#d9d2e9" data-id="6507a1b5f90e387f54ae168b5c962371"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 205px; height: auto;" data-block-id="45acac5033631ea277c91f916b816e5c"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;" data-gramm_id="4240f7d7-2a8a-e703-467f-5d2619546286" data-gramm="true" data-gramm_editor="true">
+<h1>concept: draw on mobile, build mandala and display on web</h1>
+</div></div></section><section data-background-color="#d9d2e9" data-id="a8c0fe29299bb073651b44a7730210dd"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 302px; height: auto;" data-block-id="9e15f0d3650abaa5b452f4befb6595d8"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;" data-gramm_id="4240f7d7-2a8a-e703-467f-5d2619546286" data-gramm="true" data-gramm_editor="true">
+<h1>demo</h1>
+</div></div></section><section data-background-color="#d9d2e9" data-id="d3c7363cda9f2ff3c3da1fda3293371a"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 10px; height: auto;" data-block-id="66efcc0330fe29c04f24b8e71a707d08"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;" data-gramm_id="4240f7d7-2a8a-e703-467f-5d2619546286" data-gramm="true" data-gramm_editor="true">
+<h1>architecture: </h1>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="57c0fba41b53eea29de18b270244d926" style="height: auto; min-width: 30px; min-height: 30px; width: 448px; left: 8px; top: 220px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-gramm_id="e853e662-793d-0653-e89b-bed7690ca4a1" data-gramm="true" data-gramm_editor="true">
+<ul>
+	<li>
+	<h3>Use Firebase x2</h3>
+	</li>
+	<li>
+	<h3>Use Vuex</h3>
+	</li>
+	<li>
+	<h3>Use a new drawing plugin (I built it!)</h3>
+	</li>
+	<li>
+	<h3>Use a side drawer</h3>
+	</li>
+	<li>
+	<h3>Use Vuetify on web</h3>
+	</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="code" data-block-id="4ffc31d36be483c79451cdae44aae726" style="min-width: 30px; min-height: 30px; width: 566px; height: 337px; left: 394px; top: 232px;"><div class="sl-block-content notranslate" data-highlight-theme="github-gist" style="z-index: 13; font-size: 123%;"><pre class="json"><code>"dependencies": {
+    "nativescript-vue": "^2.2.0",
+    "firebase": "^5.9.0",
+    "nativescript-plugin-firebase": "^8.0.1",
+    "nativescript-vue-multi-drawer": "0.0.2",
+    "nativescript-paint": "^1.0.0",
+    "tns-core-modules": "^5.2.2",
+    "nativescript-color-picker": "^1.5.0",
+    "vuetify": "^1.5.7",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.1.0"
+  },</code></pre></div></div></section><section data-background-color="#d9d2e9" data-id="c7b778a2c92eb9e967fa935821e93f8c"><div class="sl-block" data-block-type="text" style="width: 850px; left: 77px; top: 9px; height: auto;" data-block-id="039aad95cb6417c9be4c13ab2b3d0a60"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;" data-gramm_id="4240f7d7-2a8a-e703-467f-5d2619546286" data-gramm="true" data-gramm_editor="true">
+<h1>vuex for data manipulation</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 539px; left: 31px; top: 118px;" data-block-id="d0e214925c7a434e0373b2d46cc37473"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-gramm_id="e853e662-793d-0653-e89b-bed7690ca4a1" data-gramm="true" data-gramm_editor="true">
+<h3 style="text-align: left;">Create modules to manage different Firebase versions</h3>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="e35c32d0bf16eb5e964d828049872475" style="min-width: 4px; min-height: 4px; width: 404px; height: 267px; left: 538px; top: 433px;"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="404" data-natural-height="267" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/7c79115b546c730b15084b5e4cc9adec.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="85a75070c27f620dcefa92e0375e1e10" style="min-width: 4px; min-height: 4px; width: 720px; height: 112px; left: 31px; top: 262px;"><div class="sl-block-content" style="z-index: 14;"><img style="" data-natural-width="651" data-natural-height="101" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/2deb6e5dd6951de35d075a11677ac3a8.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="0747e4e31f470d8c1ef2fc1cc525b138" style="min-width: 4px; min-height: 4px; width: 482px; height: 104px; left: 31px; top: 406px;"><div class="sl-block-style" style="z-index: 15; transform: rotate(360deg);"><div class="sl-block-content" style="z-index: 15;"><img style="" data-natural-width="444" data-natural-height="96" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/6aec18409baa80bec6cabd1b94b9ebac.png"></div></div></div>
+<div class="sl-block" data-block-type="line" data-block-id="9cde9436bd417395323f9c08fd548030" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 466px; top: 491px;"><div class="sl-block-content" data-line-x1="86" data-line-y1="251" data-line-x2="158" data-line-y2="241" data-line-color="#ff0000" data-line-start-type="none" data-line-end-type="none" style="z-index: 16;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="72" height="10" viewbox="86 241 72 10"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="86" y1="251" x2="158" y2="241"></line><line stroke="#ff0000" stroke-width="2" x1="86" y1="251" x2="158" y2="241"></line></svg></div></div>
+<div class="sl-block" data-block-type="line" data-block-id="121857004d0708ca4f145410b5356b3d" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 454px; top: 357px;"><div class="sl-block-content" data-line-x1="74" data-line-y1="107" data-line-x2="210" data-line-y2="183" data-line-color="#ff0000" data-line-start-type="none" data-line-end-type="none" style="z-index: 17;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="136" height="76" viewbox="74 107 136 76"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="74" y1="107" x2="210" y2="183"></line><line stroke="#ff0000" stroke-width="2" x1="74" y1="107" x2="210" y2="183"></line></svg></div></div></section><section data-background-color="#d9d2e9" data-id="39a91970abf1ad44d5f1f24e8a3b89a8"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 10px; height: auto;" data-block-id="e76a0e2b36d4cb537cc506346aa4ba61"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;" data-gramm_id="4240f7d7-2a8a-e703-467f-5d2619546286" data-gramm="true" data-gramm_editor="true">
+<h1>main.js / main.native.js</h1>
+</div></div>
+<div class="sl-block" data-block-type="code" data-block-id="5f2f827f5004eeaf51e6a28f4d6a9a96" style="min-width: 30px; min-height: 30px; width: 396px; height: 460px; left: 0px; top: 152px;"><div class="sl-block-content notranslate" style="z-index: 12; font-size: 105%;" data-highlight-theme="github-gist"><pre class="javascript"><code>import Vue from 'vue';
+import App from './App.vue';
+import router from './router';
+import store from './store';
+
+import Vuetify from 'vuetify';
+import 'vuetify/src/stylus/app.styl';
+
+import firebase from 'firebase/app';
+// Setup Firebase
+...
+firebase.initializeApp(config);
+...
+Vue.use(Vuetify, {
+// Setup theme
+});
+
+new Vue({
+	router,
+	store,
+	render: h =&gt; h(App),
+}).$mount('#app');
+</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 558px; height: 460px; left: 402px; top: 152px;" data-block-id="ca49b64de3e9c3aa5b366eee914d1d46"><div class="sl-block-content notranslate" style="z-index: 13; border-width: 1px;" data-highlight-theme="github-gist"><pre class="javascript"><code>import Vue from 'nativescript-vue';
+import App from './App.vue';
+import firebase from 'nativescript-plugin-firebase';
+import MultiDrawer from 'nativescript-vue-multi-drawer';
+import store from './store';
+
+firebase
+ .init({
+   //initialization routines here
+);
+...
+Vue.use(MultiDrawer);
+Vue.registerElement('PaintPad', () =&gt; 
+    require('nativescript-paint').PaintPad);
+
+new Vue({
+  store,
+  render: h =&gt; h('frame', [h(App)]),
+}).$start();</code></pre></div></div></section><section data-background-color="#d9d2e9" data-id="8d6c409e8cf92a8f63178b176910b4a2"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 3px; height: auto;" data-block-id="ebb88f9390f655019d234d1940af9e9c"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;" data-gramm_id="4240f7d7-2a8a-e703-467f-5d2619546286" data-gramm="true" data-gramm_editor="true">
+<h1>App.vue</h1>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 451px; height: 593px; left: 255px; top: 100px;" data-block-id="9a2aae3b1c6aaa5decbaaa82aaa431b2"><div class="sl-block-content notranslate" style="z-index: 11; font-size: 130%;" data-highlight-theme="github-gist"><pre class="xml"><code>&lt;template web&gt;
+  &lt;v-app dark class="primary"&gt;
+    ...
+    &lt;v-content class="bg"&gt;
+      &lt;router-view/&gt;
+    &lt;/v-content&gt;
+  &lt;/v-app&gt;
+&lt;/template&gt;
+
+&lt;template native&gt;
+  &lt;Page actionBarHidden="true"&gt;
+    &lt;Home/&gt;
+  &lt;/Page&gt;
+&lt;/template&gt;
+...
+
+&lt;style web lang="stylus"&gt;
+@import '~styles/style-one';
+&lt;/style&gt;
+&lt;style native lang="stylus"&gt;
+@import '~styles/style-two';
+&lt;/style&gt;
+</code></pre></div></div></section><section data-background-color="#d9d2e9" data-id="dbb2a3f513af9cb6a275ac1864549cd7"><div class="sl-block" data-block-type="text" style="width: 883px; left: 39px; top: 0px; height: auto;" data-block-id="2f06905356f4d19410335f2d8111143e"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;" data-gramm_id="4240f7d7-2a8a-e703-467f-5d2619546286" data-gramm="true" data-gramm_editor="true">
+<h2>Welcome.vue</h2>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 581px; height: 429px; left: 0px; top: 64px;" data-block-id="285eea3d37554a0312e55af95e1ba746"><div class="sl-block-content notranslate" style="z-index: 12; font-size: 145%;" data-highlight-theme="github-gist"><pre class="xml"><code>&lt;template&gt;
+  &lt;v-card&gt;
+    &lt;v-card-text&gt;
+      &lt;h1 align="center"&gt;
+        Build your personal mandala
+      &lt;/h1&gt;
+    &lt;/v-card-text&gt;
+    &lt;img src="~/assets/logo_lg.png" class="my-3" contain&gt;
+    &lt;v-card-text title&gt;
+      &lt;v-btn href="#/build" color="primary" dark large&gt;
+        Get Started
+      &lt;/v-btn&gt;
+    &lt;/v-card-text&gt;
+  &lt;/v-card&gt;
+&lt;/template&gt;</code></pre></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="21d2faab9b93cf4eb8f7f3df685eeb53" style="min-width: 4px; min-height: 4px; width: 607px; height: 499px; left: 353px; top: 201px;"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="1109" data-natural-height="911" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/cf5f425fc27e3a99e17b0801b032f80e.png"></div></div></section><section data-background-color="#d9d2e9" data-id="c46806ca12b81334c892c3bfd113113a"><div class="sl-block" data-block-type="text" style="width: 883px; left: 39px; top: 0px; height: auto;" data-block-id="cb94493213acff475eb764c55ec9dec4"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;" data-gramm_id="4240f7d7-2a8a-e703-467f-5d2619546286" data-gramm="true" data-gramm_editor="true">
+<h2>Welcome.native.vue</h2>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 657px; height: 622px; left: 0px; top: 74px;" data-block-id="ec3f1fe83c56d3da751f0107ba628bad"><div class="sl-block-content notranslate" style="z-index: 12; font-size: 133%;" data-highlight-theme="github-gist"><pre class="xml"><code>&lt;template&gt;
+&lt;MultiDrawer&gt;
+  &lt;StackLayout slot="left"&gt;
+    &lt;Image
+      :src="paintingImage"
+      width="50%"
+      :visibility="paintingImage ? 'visible' : 'collapsed'"
+      stretch="aspectFit"
+    /&gt;
+    ...
+  &lt;StackLayout&gt;
+    ...
+  &lt;/StackLayout&gt;
+&lt;/MultiDrawer&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+import { PaintPad } from "nativescript-paint";
+import { ColorPicker } from "nativescript-color-picker";
+import * as platformModule from "tns-core-modules/platform";
+import * as fs from "file-system";
+import * as imageSource from "image-source";
+...</code></pre></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="bc476b4f0bc7dbf383f4cb8b65bdb349" style="min-width: 4px; min-height: 4px; width: 389px; height: 518px; left: 571px; top: 182px;"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="1013" data-natural-height="1350" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/be0f591dabdc41be2d6f1ed0a95a6b71.PNG"></div></div></section><section data-background-color="#cfe2f3" data-id="0cd72cc1f07dd238ef9ef416e3fcab52"><div class="sl-block" data-block-type="text" style="width: 883px; left: 39px; top: 16px; height: auto;" data-block-id="adc35ff89a4596840246f3791e1c7b2a"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;" data-gramm_id="4240f7d7-2a8a-e703-467f-5d2619546286" data-gramm="true" data-gramm_editor="true">
+<h2>Code sharing as convergence</h2>
+</div></div>
+
+<div class="sl-block" data-block-type="text" data-block-id="48e4de63a2eb6bdd4c73e56e538297e2" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 160px;"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="0">
+<h3>Find your flow as a developer by building simultaneously for web, iOS, and Android</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 181px; top: 350px;" data-block-id="49cec8ce6aecf316f2313add60205f0e"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="1">
+<h3>Focus on user experience by providing native apps appropriate to each platform</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 556px;" data-block-id="285be07cc9f96db28a5292700645d5ed"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;" data-fragment-index="2">
+<h3>Enjoy ease of design and development by using a flexible plugin</h3>
+</div></div></section><section data-background-color="#d9ead3" data-id="c761f026e063731ee5266922e3149d65"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 250px; height: auto;" data-block-id="ae0a6d781989bb2109c095dbb91c7334"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;" data-gramm_id="4240f7d7-2a8a-e703-467f-5d2619546286" data-gramm="true" data-gramm_editor="true">
+<h3>"The Buddha, the Godhead, resides quite as comfortably in the circuits of a digital computer or the gears of a cycle transmission as he does at the top of a mountain or in the petals of a flower."</h3>
+</div></div></section><section data-background-color="#d9ead3" data-id="de3be0f6d076f3369dbd266e98e209fa" data-background-image="zen-and-the-art-of-vue-65/e369fb7be444f7cce5b9adfa1251eb87" data-background-size="initial"><div class="sl-block" data-block-type="image" data-block-id="b24185de99552a57b628f7238b3e3a63" style="min-width: 4px; min-height: 4px; width: 249px; height: 248px; left: 356px; top: 10px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="564" data-natural-height="563" data-lazy-loaded="" data-src="zen-and-the-art-of-vue-65/4473ef695339760821ed440cdecd8ca2.png"></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="35016a05a806fc70e6fd8025a53b098d" style="height: auto; min-width: 30px; min-height: 30px; width: 230px; left: 365px; top: 275px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-gramm_id="2b993dd6-4676-3b66-08a4-427323790571" data-gramm="true" data-gramm_editor="true">
+<h3>@jenlooper</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="909534dea09907599eefeaac6da6b79a" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 337px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<h3><span style="font-size:0.7em">Gary Gambill, Manuel Saelices, Igor Randjelovic</span></h3>
+</div></div></section>
+			</div>
+		</div>
+
+		<script>
+			var SLConfig = {"deck": {"id":1475022,"slug":"zen-and-the-art-of-vue-65","title":"Zen and the Art of Vue","description":"NS Dev Day (shorter version)","width":960,"height":700,"margin":0.05,"visibility":"all","published_at":"2019-04-08T16:16:20.792Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/615ea47bd4557d29506d0f59f9e418a0/thumb.jpg?1552923574","view_count":1304,"user":{"id":196305,"username":"telerikdevrel","name":"Telerik DevRel","description":"Developer Relations team @ Telerik!","thumbnail_url":"https://www.gravatar.com/avatar/0e11c16649d59de43017174360859625?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","account_type":"lite","team_id":null,"settings":{"id":24745,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":false,"default_deck_tag_id":null}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"josefine","theme_color":"white-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":false,"rolling_links":false,"center":false,"shuffle":false,"should_loop":false,"share_notes":false,"slide_number":false,"slide_count":52,"rtl":false,"version":2,"collaborative":false,"deck_user_editor_limit":1,"data_updated_at":1555519976224,"font_typekit":null,"font_google":null,"time_limit":null,"navigation_mode":"default","upsizing_enabled":true,"language":"en","notes":{"3692f6033e92701285bf7c9289f505dc":"theoretic/esthetic - JS framework battles\n\nclassic/romantic - completely different worlds of thought"}}};
+
+
+			// Use local fonts
+			SLConfig.fonts_url = 'lib/fonts/';
+		</script>
+
+		<script src="lib/reveal.js"></script>
+		<script src="lib/reveal-plugins.js"></script>
+		<script src="lib/offline.js"></script>
+
+		<!-- Initialize the presentation -->
+		<script>
+			Reveal.initialize({
+				width: 960,
+				height: 700,
+				margin: 0.05,
+				
+
+				hash: true,
+				controls: true,
+				progress: true,
+				mouseWheel: false,
+				showNotes: false,
+				slideNumber: false,
+				fragmentInURL: true,
+
+				autoSlide: 0,
+				autoSlideStoppable: true,
+
+				autoAnimateMatcher: SL.deck.AutoAnimate.matcher,
+
+				center: false,
+				shuffle: false,
+				loop: false,
+				rtl: false,
+				navigationMode: "default",
+
+				transition: "slide",
+				backgroundTransition: "slide",
+
+				highlight: {
+					escapeHTML: false
+				},
+
+				plugins: [ RevealZoom, RevealNotes, RevealMarkdown, RevealHighlight ]
+			});
+		</script>
+
+		
+
+	</body>
+</html>
